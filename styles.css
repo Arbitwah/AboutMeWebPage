@@ -1,0 +1,105 @@
+/*
+Name: Gregory Pugh
+Date: 02/04/2018
+Filename:styles.ccs paired with product.html
+Assignment name:About a Product
+*/
+body{
+	background-color:#d9d9d9;
+	font-family:Helvetica;
+}
+div.container{
+	position: relative;
+	padding-top: 30px;
+}
+div{
+
+
+	margin: auto;
+}
+
+h1{
+	color:white;
+	text-shadow: 2px 2px 6px Silver, 0 0 25px gold, 0 0 5px
+	}
+header{
+	text-align:center;
+	box-sizing: border-box;
+	background-color: Silver;
+}
+header p{
+	text-align: left;
+}
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 10px 10px 5px grey;
+}
+
+#roundText{
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 25px;
+	background:#bc7681;
+	padding: 20px;
+	width: 400px;
+	height: 150px;
+}
+li{
+
+	margin:auto;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	list-style-position:inside;
+}
+.headingText{
+	color:white;
+	text-shadow: 2px 2px 2px black;
+	font-size: 30px
+}
+
+.center{
+	text-align: center;
+}
+h3{
+	clear: both;
+
+}
+.clearfix::after{
+  content: "";
+  clear: both;
+  display:table;
+}
+
+.rightFloat{
+	float: right;
+}
+.navigation a{
+	float:left;
+	display: block;
+	text-align: center;
+	padding: 8px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+.navigation a:hover{
+	background-color: #bc7681;
+}
+.socialMedia{
+	float: right;
+}
+.socialMedia a{
+padding: 2px;
+}
+.scrollNav{
+	background-color: Silver;
+	box-sizing: border-box;
+	position:fixed;
+	width: 99.2%;
+	overflow: hidden;
+	top:0;
+	margin:auto;
+}
